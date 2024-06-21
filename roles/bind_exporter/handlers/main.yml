@@ -6,5 +6,5 @@
     daemon_reload: true
       name: bind_exporter
     state: restarted
-  when:
+   when:
     - not ansible_check_mode
